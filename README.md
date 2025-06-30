@@ -27,25 +27,43 @@ It uses a `.container` to keep content centered and restricted on large screens,
 These are the most common media query breakpoints used for general responsive websites.
 
 ```css
-/* Small devices (portrait phones) */
-@media (max-width: 575px) {
-  /* styles for very small screens */
-}
-
-/* Medium devices (landscape phones, small tablets) */
-@media (max-width: 767px) {
-  /* styles for tablets and large phones */
-}
-
-/* Large devices (tablets, small laptops) */
-@media (max-width: 991px) {
-  /* styles for tablets & small laptops */
+/* Default (very large screens) */
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Extra large devices (desktops) */
 @media (max-width: 1999px) {
-  /* optional tweaks for slightly narrower desktops */
+  .container {
+    max-width: 1140px;
+  }
 }
+
+/* Large devices (tablets, small laptops) */
+@media (max-width: 991px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* Medium devices (landscape phones, small tablets) */
+@media (max-width: 767px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+/* Small devices (portrait phones) */
+@media (max-width: 575px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}
+
 ```
 
 ✅ You typically start **mobile-first**, writing styles for mobile by default, and use these media queries to adjust layout for wider screens.

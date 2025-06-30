@@ -109,16 +109,6 @@ Let headers, footers, or full-width banners extend across the entire screen.
 
 ---
 
-### 🚀 Run locally
-
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-open index.html
-```
-
----
-
 ## ✅ TL;DR
 
 * Use a `.container` to **restrict content width** on large screens.

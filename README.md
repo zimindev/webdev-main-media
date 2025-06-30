@@ -116,3 +116,8 @@ Let headers, footers, or full-width banners extend across the entire screen.
 * Start with **mobile-first CSS**, then add `min-width` or `max-width` breakpoints for larger screens.
 
 ---
+
+##  ScreenShot
+
+![image](https://github.com/user-attachments/assets/144135dc-44d2-4a52-854a-6c38ce6018a2)
+

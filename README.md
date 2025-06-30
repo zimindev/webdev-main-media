@@ -28,22 +28,22 @@ These are the most common media query breakpoints used for general responsive we
 
 ```css
 /* Small devices (portrait phones) */
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   /* styles for very small screens */
 }
 
 /* Medium devices (landscape phones, small tablets) */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   /* styles for tablets and large phones */
 }
 
 /* Large devices (tablets, small laptops) */
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   /* styles for tablets & small laptops */
 }
 
 /* Extra large devices (desktops) */
-@media (max-width: 1200px) {
+@media (max-width: 1999px) {
   /* optional tweaks for slightly narrower desktops */
 }
 ```
